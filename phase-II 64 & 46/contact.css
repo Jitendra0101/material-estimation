@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+html {
+	scroll-behaviour: smooth;
+}
+
+:root {
+	--navbar-height: 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.background {
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px;
+    border-radius: 15px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+#search {
+	padding: 5px;
+	font-size: 17px;
+	border: 2px solid grey;
+	border-radius: 9px;
+}
+
+
+.firstsection {
+	height: 100vh;
+	background-color: white;
+}
+
+.box-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	max-width: 50%;
+	margin: auto;
+	height: 80%;
+}
+
+.firstHalf {
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.firstHalf img {
+	display: flex;
+	border-radius: 9050px;
+}
+
+.text-big {
+	font-family: "Piazzolla", serif;
+	font-weight: bold;
+	font-size: 41px;
+	text-align: center;
+}
+
+.text-small {
+	font-family: "Sansita Swashed", cursive;
+	font-size: 18px;
+	text-align: center;
+}
+
+#service {
+	margin: 34px;
+	display: flex;
+}
+
+#service .box {
+	padding: 45px;
+	margin: 3px 6px;
+	border-radius: 28px;
+}
+
+#service .box img {
+	margin-top: 20px;
+	height: 100px;
+	margin: auto;
+	display: block;
+	border-radius: 200px;
+}
+
+#service .box p {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.btn {
+	padding: 8px 20px;
+	margin: 7px 0;
+	border: 2px solid white;
+	border-radius: 8px;
+	background: none;
+	color: white;
+	cursor: pointer;
+}
+
+.btn-sm {
+	padding: 6px 10px;
+	vertical-align: middle;
+}
+
+.center {
+	text-align: center;
+}
+
+.text-footer {
+	text-align: center;
+	padding: 30px 0;
+	font-family: "Ubuntu", sans-serif;
+	display: flex;
+	justify-content: center;
+}
