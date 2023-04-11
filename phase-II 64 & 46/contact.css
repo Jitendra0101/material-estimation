@@ -14,11 +14,11 @@
 
 
 html {
-	scroll-behaviour: smooth;
+	scroll-behavior: smooth;	
 }
 
 :root {
-	--navbar-height: 100px;
+	--navbar-height:100px;
 }
 
 .navbar {
@@ -83,6 +83,7 @@ html {
 .firstsection {
 	height: 100vh;
 	background-color: white;
+	background-image: url("background.png");
 }
 
 .box-main {
