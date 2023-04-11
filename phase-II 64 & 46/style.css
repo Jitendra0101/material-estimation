@@ -24,7 +24,8 @@
 }
 
 .background {
-	background: black;
+	background-image: url("back.png");
+	/* background: black; */
 	background-blend-mode: darken;
 	background-size: cover;
 }
@@ -73,17 +74,21 @@
 }
 
 .firstsection {
-	background-color: gray;
+	/* background-image: url("back.png"); */
+	border: 5px solid black;
+	border-radius: 8px;
+	background-color: white;
 	height: 400px;
 }
 
 .secondsection {
-	background-color: whitesmoke;
+	/* background-image: url("back.png"); */
+	background-color: white;
 	height: 400px;
 }
 
 .section {
-	background-color: gray;
+	background-color: white;
 	height: 400px;
 }
 
@@ -169,7 +174,7 @@
 }
 
 .thumbnail img {
-	width: 250px;
+	width: 200px;
 	border: 4px solid black;
 	border-radius: 26px;
 	margin-top: 19px;
