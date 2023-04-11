@@ -22,7 +22,7 @@
 }
 
 .background {
-    background: black;
+    background-image: url("back.png");
     background-blend-mode: darken;
     background-size: cover;
 }
@@ -64,10 +64,13 @@
 }
 
   section {
+    border: 5px solid black;
     height: 100vh;
     width: 100%;
     display: grid;
     place-items: center;
+    background-image: url("back3.png");
+    background-size: cover;
   }
 
   .row {
@@ -109,7 +112,7 @@
     border-radius: 5px;
     box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
     cursor: pointer;
-    transition: 0.5s;
+    transition: 1s;
   }
   h3 {
     font-size: 20px;
@@ -124,13 +127,13 @@
     letter-spacing: 0.03em;
   }
   .icon-wrapper {
-    background-color: gray;
+    background-color:#FDBD01;
     position: relative;
     margin: auto;
     font-size: 30px;
     height: 2.5em;
     width: 2.5em;
-    color: #ffffff;
+    color: black;
     border-radius: 50%;
     display: grid;
     place-items: center;
@@ -141,7 +144,7 @@
   }
   .card:hover .icon-wrapper {
     background-color: #ffffff;
-    color: gray;
+    color: #FDBD01;
   }
   .card:hover h3 {
     color: #ffffff;
