@@ -29,6 +29,7 @@
 }
 
 .nav-list {
+    margin-right: 90px;
     width: 70%;
     display: flex;
     align-items: center;
@@ -58,7 +59,7 @@
 }
 
 .nav-list li a:hover {
-    color: grey;
+    color: #FDBD01;
 }
 
 .rightnav {

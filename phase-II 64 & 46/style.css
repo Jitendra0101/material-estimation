@@ -34,6 +34,7 @@ html {
 }
 
 .nav-list {
+	/* margin-left: 40px; */
 	width: 70%;
 	display: flex;
 	align-items: center;
@@ -63,10 +64,11 @@ html {
 }
 
 .nav-list li a:hover {
-	color: grey;
+	color: #FDBD01;
 }
 
 .rightnav {
+	/* border: 4px solid black; */
 	width: 30%;
 	text-align: right;
 }
@@ -86,9 +88,9 @@ html {
 	align-items: center;
 	justify-content: center;
 	margin: auto;
-	/* background-image: url("back4.png"); */
+	background-image: url("bg2.png");
 	border-bottom: none;
-    background-size:contain;
+    background-size: 1520px;
 
 }
 
@@ -108,9 +110,9 @@ html {
 	/* background-image:linear-gradient(180deg,
 	rgba(253, 189, 1, .5), rgba(184, 115, 51, 1)
 	), url("bottommain.png"); */
-	background-image: url("mainback.jpg");
+	background-image: url("bg3.png");
 	/* border-top: none; */
-    background-size:contain;
+    background-size: 1520px;
 	/* background-blend-mode: ; */
 }
 
@@ -122,12 +124,13 @@ html {
 
 .box-main {
 	display: flex;
+	padding: 0px 65px;
 	justify-content: center;
 	align-items: center;
 	/* color: black; */
-	max-width: 80%;
-	margin: auto;
-	height: 80%;
+	/* max-width: 100%; */
+	/* margin: auto; */
+	/* height: 80%; */
 }
 
 .firsthalf {
@@ -162,11 +165,18 @@ html {
 #button {
 	padding: 8px 18px;
 	margin: 6px 0;
-	border: 2px solid white;
+	border: 4px solid #FDBD01;
 	border-radius: 8px;
 	background: white;
 	color: black;
 	cursor: pointer;
+	transition: .3s;
+}
+
+#button:hover{
+	background: #FDBD01;
+	border: 4px solid white;
+
 }
 
 .btn {
@@ -207,6 +217,16 @@ html {
 	border-radius: 26px;
 	margin-top: 19px;
 	margin-right: 60px;
+	margin-left: 220px;
+}
+
+.thumbnail2 img {
+	width:300px;
+	border: 4px solid black;
+	border-radius: 26px;
+	margin-top: 19px;
+	margin-right: 200px;
+	/* margin-left: 60px; */
 }
 
 .center {
