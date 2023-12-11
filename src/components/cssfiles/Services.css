@@ -1,0 +1,16 @@
+.image1{
+    width: 17em;
+    height: 17em;
+    position: relative;
+    left: 100px;
+  }
+
+.outerdivservices{
+    position: absolute;
+    left:100px;
+
+    padding:10px;
+}  
+.card1{
+    background-color:rgb(42, 41, 50);
+}
